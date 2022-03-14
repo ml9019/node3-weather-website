@@ -1,6 +1,6 @@
 //const { response } = require("express");
 
-console.log("Client side JavaScrit is loaded");
+console.log("Client side JavaScrit is lo1aded!");
 
 const weatherForm = document.querySelector("form");
 const search = document.querySelector("input");
