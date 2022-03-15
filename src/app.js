@@ -85,7 +85,7 @@ app.get("/products", (req, res) => {
 app.get("/help/*", (req, res) => {
   res.render("404", {
     title: "404",
-    name: "Mat",
+    name: "Mat2",
     errorMessage: "Help article not found",
   });
 });
