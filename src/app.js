@@ -90,6 +90,14 @@ app.get("/help/*", (req, res) => {
   });
 });
 
+app.get("/test", (req, res) => {
+  res.render("test", {
+    helpText: "This is some test page",
+    title: "TEST",
+    name: "Mat",
+  });
+});
+
 app.get("*", (req, res) => {
   res.render("404", {
     title: "404",

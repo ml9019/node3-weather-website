@@ -14,7 +14,14 @@ const forecast = (latitude, longitude, callback) => {
     } else if (body.error) {
       callback(undefined, "Coordinates error!");
     } else {
-      callback(undefined, body.current.temperature);
+      //console.log(body);
+      callback(
+        undefined,
+        "Current temperature is: " +
+          body.current.temperature +
+          " degrees and pressure: " +
+          body.current.pressure
+      );
     }
   });
 };
