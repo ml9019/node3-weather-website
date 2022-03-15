@@ -94,7 +94,7 @@ app.get("/test", (req, res) => {
   res.render("test", {
     helpText: "This is some test page",
     title: "TEST",
-    name: "Mat",
+    name: "Mat2",
   });
 });
 
